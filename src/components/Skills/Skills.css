@@ -1,0 +1,114 @@
+.skils__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.skils__container > div {
+    background-color: rgb(199 41 187 / 94%);
+    padding: 2.4rem 3rem;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+    transition: var(--transition);
+}
+
+.skils__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.skils__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.skils__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    gap: 3rem;
+    align-content: center;
+}
+
+.skils__details:nth-child(even) {
+    border-color: var(--color-secondary-variant);
+}
+
+.skils-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.skils__details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid #0fd578;
+    border-radius: 2rem;
+    width: 7rem;
+    height: 7.5rem;
+    box-shadow: #fe77fe 0px 0px 30px
+}
+
+.skils__details-icon {
+    /* color: var(--color-primary); */
+    font-size: 20px;
+}
+
+.skils__details-name > h4 {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+/* mobile devices */
+@media screen and (max-width: 600px){
+    .container.skils__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skils__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .skils__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skils__details {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .skils__details-icon {
+        font-size: 50px;
+    }
+
+    .skils__details-name > h4{
+        font-size: 0.8rem;
+    }
+}
+
+/* medium sized devices */
+@media screen and (max-width: 1024px){
+    .skils__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skils__container > div {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skils__content {
+        margin: 0 auto;
+    }
+}

@@ -71,6 +71,9 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+    .animation__item {
+        width: 25rem;
+    }
 }
 
 /* medium sized devices */

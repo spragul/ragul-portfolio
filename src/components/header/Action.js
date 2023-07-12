@@ -1,10 +1,11 @@
 import React from 'react';
+import resume from './Ragul P.pdf'
 
 
 const Action = () => {
   return (
     <div className='action'>
-        <a className='btn' href="" target='_blank' download>Download Resume</a>
+        <a className='btn' href={resume} target='_blank' download>Download Resume</a>
         <a className='btn btn-primary' href="#contact">Contact me!</a>
     </div>
   )

@@ -16,7 +16,7 @@ const projects = [
     title: "Equipment Rental Portal",
 
     description:
-      "Equipment Rental Portal, User can rent a product using test Razor pay mode. This App have the admin panel also ",
+      "Users of the equipment rental platform may rent a product by using the test Razorpay mode. This application offers user and administrator authentication.",
     site: "https://github.com/spragul/guvi-hackathon2-frontend",
     source: "Frontend Code",
     backsite: "https://github.com/spragul/guvi-hackathon2-backend",

@@ -1,5 +1,5 @@
 footer {
-    background: var(--color-primary);
+    background-color: rgb(199 41 187 / 94%);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -23,6 +23,10 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+}
+
+.permalinks li{
+font-size: 30px;
 }
 
 .footer__copyright {

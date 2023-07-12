@@ -29,8 +29,8 @@ const Contact = () => {
                     <article className="contact__option">
                         <BsLinkedin className='contact__option-icon'/>
                         <h4>LinkedIn</h4> 
-                        <h5>in/Ragul</h5>
-                        <a href='' target='_blank'>Message me on LinkedIn!</a>
+                        <h5>Ragul</h5>
+                        <a href='https://www.linkedin.com/in/raguldeveloper' target='_blank'>Message me on LinkedIn!</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>

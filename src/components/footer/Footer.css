@@ -34,6 +34,15 @@ font-size: 30px;
     color: var(--color-bg);
 }
 
+.footer-icon{
+    gap: 10px;
+}
+
+.footer-icon a{
+    font-size: 40px;
+    padding: 10px;
+}
+
 /* mobile devices */
 @media screen and (max-width: 600px){
     .permalinks {

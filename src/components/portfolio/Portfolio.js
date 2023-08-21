@@ -5,7 +5,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import rentalapp from "../../lotties/3.json";
 import mobileapp from "../../lotties/Online shopping.json"
 import zoomApp from "../../lotties/Zoom.json";
-import urlApp from "../../lotties/url.json";
+import tournament from "../../lotties/animation_llkjix4v.json";
 import { BiLinkExternal } from "react-icons/bi";
 import { GoAlertFill } from "react-icons/go";
 
@@ -53,16 +53,16 @@ const projects = [
 
   {
     id: 4,
-    image: urlApp,
-    title: "Url Shortener",
+    image: tournament,
+    title: "Tournament app",
 
     description:
-      " URL shortener ,user can redirects the shorter URL to the original webpage",
-    site: "https://github.com/spragul/urlshortener-front",
+      "The tournament app can be used to create a tournament and add participants to it. Once the participants have been added, you can select a winner based on the rules of the tournament.",
+    site: "https://github.com/spragul/tournament-frontend",
     source: "Frontend Code",
-    backsite: "https://github.com/spragul/urlshortener-back",
+    backsite: "https://github.com/spragul/tournament-backend",
     backsource: "Backend Code",
-    live: "https://dancing-nasturtium-c70247.netlify.app",
+    live: "https://tournament-game.netlify.app",
     livename: "Live",
   },
 ];

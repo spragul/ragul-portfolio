@@ -42,7 +42,22 @@ font-size: 30px;
     font-size: 40px;
     padding: 10px;
 }
+.guviimage{
+    width: 40px;
+    height: 40px;
+}
 
+.github{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+
+}
+
+.linkedin{
+    width: 40px;
+    height: 40px;
+}
 /* mobile devices */
 @media screen and (max-width: 600px){
     .permalinks {

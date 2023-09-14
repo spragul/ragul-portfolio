@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import {BsLinkedin, BsGithub} from 'react-icons/bs';
+
+import guvi from '../../assests/guvi-logos-id86bsKcFH.jpeg'
+import linkedin from '../../assests/download.jpg'
+import github from '../../assests/github-mark.png'
 const Footer = () => {
   return (
     <footer>
@@ -14,8 +17,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className='footer-icon'>
-        <a href="https://www.linkedin.com/in/raguldeveloper" target='_blank'><BsLinkedin /></a>
-        <a href="https://github.com/spragul" target='_blank'><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/raguldeveloper" target='_blank'><img className='linkedin' alt='linkedin' src={linkedin}></img></a>
+        <a href="https://github.com/spragul" target='_blank'><img className='github' src={github} alt='github'></img></a>
+        <a href='https://www.guvi.in/spragul3360' target='_blank'><img className='guviimage' src={guvi} alt='guvi'></img></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; RAGUL. All rights reserved.</small>
@@ -25,3 +29,13 @@ const Footer = () => {
 }
 
 export default Footer;
+
+export function Socialicon(){
+  return(
+    <div className='footer-icon'>
+    <a href="https://www.linkedin.com/in/raguldeveloper" target='_blank'><img className='linkedin' alt='linkedin' src={linkedin}></img></a>
+    <a href="https://github.com/spragul" target='_blank'><img className='github' src={github} alt='github'></img></a>
+    <a href='https://www.guvi.in/spragul3360'><img className='guviimage' src={guvi} alt='guvi'></img></a>
+  </div>
+  )
+}

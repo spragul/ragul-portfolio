@@ -74,6 +74,20 @@ header {
     .animation__item {
         width: 25rem;
     }
+    .animation__container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+    }
+    .header__socials {
+        display: flex;
+        flex-direction: row;
+        left: 30%;
+    }
+    .header__socials::after, .header__socials::before  {
+     display: none;
+    }
 }
 
 /* medium sized devices */
@@ -81,4 +95,5 @@ header {
     .animation {
         height: 68vh;
     }
+    
 }

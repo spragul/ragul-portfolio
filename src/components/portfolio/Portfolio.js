@@ -30,11 +30,11 @@ const projects = [
     title: "Mobile shop",
 
     description:"In this app, we need to implement authentication and perform CRUD operations",
-    site: "https://github.com/kumaresan2001/Capston-Forntend",
+    site: "https://github.com/spragul/mobile-front",
     source: "Frontend Code",
-    backsite: "https://github.com/kumaresan2001/day-42-Backend",
+    backsite: "https://github.com/spragul/mobile-back",
     backsource: "Backend Code",
-    live: "	https://gleaming-macaron-192bb7.netlify.app",
+    live: "https://fanciful-hummingbird-57ab9e.netlify.app",
     livename: "Live",
   },
   {

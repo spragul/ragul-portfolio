@@ -18,18 +18,11 @@ const About = () => {
                   loop
                   src={animationData1}
                   alt="image"
-                  style={{ height: "20rem",   backgroundColor: "rgb(199 41 187 / 94%)" }}
+                  style={{ height: "20rem",   backgroundColor: "rgba(77, 181, 255, 0.6)" }}
                 ></Player>
                     </div>
                 </div>
                 <div className="about__content">
-                    <div className="about__cards">
-                        <article className='about-guvi'>
-                            <BiUser className='about__icon' />
-                            <h5>Full Stack Developer- MERN </h5>
-                            <small>GUVI Geek Networks, IITM Research Park</small>
-                        </article>
-                    </div>
                     <p>
                         I completed my Bachelor of Engineering in Electronics and Communication Engineering. Due to certain
                         reasons, I planned to switch my career to the IT industry. So, I
@@ -39,8 +32,6 @@ const About = () => {
                         back-end development. I love to learn and I am always looking to
                         learn and experiment with new technologies! This is how a Engineering in Electronics and Communication Engineer turned into a full-stack developer.
                     </p>
-
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>
         </section>

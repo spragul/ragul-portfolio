@@ -121,9 +121,11 @@ const Skills = () => {
 
                         </div>
                     </div>
-                    <div className="skils__backend">
+                </div>
+                <div className="skills_tools_container ">
+                    <div className="skills_tools">
                         <h3>Tools</h3>
-                        <div className="skils__content">
+                        <div className="skills_tools_elements">
                             {skilsToolsData.map((skill, id) => (
                                 <article key={id} className="skils__details">
                                     <img className="skils-icon" src={skill.image} alt={skill.Name}></img>

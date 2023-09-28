@@ -70,8 +70,10 @@ const projects = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>projects</h2>
+      <h3>Common Credentials</h3>
+      <p className="common_credentials">User :- user123@gmail.com || user || password: user1234</p>
+      <p className="common_credentials">Admin :- admin123@gmail.com || password: admin123</p>
 
       <div className="container portfolio__container">
         {projects.map((project) => {
@@ -91,7 +93,7 @@ const Portfolio = () => {
 
               <small className="portfolio__desc">{project.description}</small>
 
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <div className="portfolio_a" style={{ display: "flex", justifyContent: "space-between" }}>
                 <a
                   href={project.site}
                   target="_blank"

@@ -83,7 +83,7 @@ header {
     .header__socials {
         display: flex;
         flex-direction: row;
-        left: 30%;
+        left: 35%;
     }
     .header__socials::after, .header__socials::before  {
      display: none;

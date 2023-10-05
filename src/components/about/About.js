@@ -24,13 +24,13 @@ const About = () => {
                 </div>
                 <div className="about__content">
                     <p>
-                        I completed my Bachelor of Engineering in Electronics and Communication Engineering. Due to certain
-                        reasons, I planned to switch my career to the IT industry. So, I
+                        I completed my Bachelor of Engineering in Electronics and Communication Engineering.
+                        I am passionate about technology and love to learn new things. So, I
                         decided to level up my skills and shortly after that, I enrolled
                         myself in a full-stack development course. I started to learn
                         full-stack with joy. I have a strong passion for both front-end and
                         back-end development. I love to learn and I am always looking to
-                        learn and experiment with new technologies! This is how a Engineering in Electronics and Communication Engineer turned into a full-stack developer.
+                        learn and experiment with new technologies! This is how an Engineering in Electronics and Communication Engineer turned into a full-stack developer.
                     </p>
                 </div>
             </div>

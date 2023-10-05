@@ -72,7 +72,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>projects</h2>
       <h3>Common Credentials</h3>
-      <p className="common_credentials">User :- user123@gmail.com || user || password: user1234</p>
+      <p className="common_credentials">User :- user123@gmail.com || password: user1234</p>
       <p className="common_credentials">Admin :- admin123@gmail.com || password: admin123</p>
 
       <div className="container portfolio__container">

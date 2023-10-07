@@ -47,7 +47,7 @@ const projects = [
     source: "Frontend Code",
     backsite: "https://github.com/spragul/zmbackend",
     backsource: "Backend Code",
-    live: "https://main--unrivaled-froyo-c6cf87.netlify.app",
+    live: "https://main-unrivaled-froyo-c6cf87.netlify.app",
     livename: "Live",
   },
 

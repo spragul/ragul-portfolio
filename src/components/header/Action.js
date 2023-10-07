@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from './Ragul(MERN).pdf'
 
 
 const Action = () => {

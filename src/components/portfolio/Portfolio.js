@@ -40,7 +40,7 @@ const projects = [
   {
     id: 3,
     image: zoomApp,
-    title: "Zoom Metting",
+    title: "Zoom Meeting Clone",
 
     description:"The Zoom Meeting app allows you to create a video call, chat, and screen share with login credentials." ,
     site: "https://github.com/spragul/zmfrontend",

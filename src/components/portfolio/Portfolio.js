@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     image: zoomApp,
-    title: "Zoom Metting",
+    title: "Zoom Metting Clone",
 
     description:"The Zoom Meeting app allows you to create a video call, chat, and screen share with login credentials." ,
     site: "https://github.com/spragul/zmfrontend",
@@ -39,6 +39,20 @@ const projects = [
   },
   {
     id: 3,
+    image: zoomApp,
+    title: "Zoom Metting",
+
+    description:"The Zoom Meeting app allows you to create a video call, chat, and screen share with login credentials." ,
+    site: "https://github.com/spragul/zmfrontend",
+    source: "Frontend Code",
+    backsite: "https://github.com/spragul/zmbackend",
+    backsource: "Backend Code",
+    live: "https://main-unrivaled-froyo-c6cf87.netlify.app",
+    livename: "Live",
+  },
+
+  {
+    id: 4,
     image: tournament,
     title: "Tournament app",
 

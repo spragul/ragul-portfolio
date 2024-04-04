@@ -8,6 +8,7 @@ import zoomApp from "../../lotties/Zoom.json";
 import tournament from "../../lotties/animation_llkjix4v.json";
 import { BiLinkExternal } from "react-icons/bi";
 import { GoAlertFill } from "react-icons/go";
+import shopingapp from "../../lotties/Animation - 1712227149787.json"
 
 const projects = [
   {
@@ -25,6 +26,19 @@ const projects = [
   },
   {
     id: 2,
+    image: shopingapp,
+    title: "online shopping app",
+    description:
+      "In this online shopping app, role-based authentication and authorization have been implemented. Redux Toolkit has been used for implementation, along with integration of payment processing testing methods using Razorpay for payment transactions.",
+    site: "https://github.com/spragul/redux-frontend",
+    source: "Frontend Code",
+    backsite: "https://github.com/spragul/redux-backend",
+    backsource: "Backend Code",
+    live: "https://online-shopping-9361.netlify.app",
+    livename: "Live",
+  },
+  {
+    id: 3,
     image: rentalapp,
     title: "Equipment Rental Portal",
 
@@ -39,7 +53,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: tournament,
     title: "Tournament app",
 
@@ -53,7 +67,7 @@ const projects = [
     livename: "Live",
   },
   {
-    id: 4,
+    id: 5,
     image: mobileapp,
     title: "Mobile shop",
 

@@ -3,20 +3,21 @@ import "./Portfolio.css";
 
 import { Player } from "@lottiefiles/react-lottie-player";
 import rentalapp from "../../lotties/3.json";
-import mobileapp from "../../lotties/Online shopping.json"
+import mobileapp from "../../lotties/Online shopping.json";
 import zoomApp from "../../lotties/Zoom.json";
 import tournament from "../../lotties/animation_llkjix4v.json";
 import { BiLinkExternal } from "react-icons/bi";
 import { GoAlertFill } from "react-icons/go";
-import shopingapp from "../../lotties/Animation - 1712227149787.json"
+import shopingapp from "../../lotties/Animation - 1712227149787.json";
+import task from "../../lotties/task.json";
 
 const projects = [
   {
     id: 1,
     image: zoomApp,
     title: "Zoom Metting Clone",
-
-    description:"The Zoom Meeting app allows you to create a video call, chat, and screen share with login credentials." ,
+    description:
+      "The Zoom Meeting app allows you to create a video call, chat, and screen share with login credentials.",
     site: "https://github.com/spragul/zmfrontend",
     source: "Frontend Code",
     backsite: "https://github.com/spragul/zmbackend",
@@ -41,7 +42,6 @@ const projects = [
     id: 3,
     image: rentalapp,
     title: "Equipment Rental Portal",
-
     description:
       "Users of the equipment rental platform may rent a product by using the test Razorpay mode. This application offers user and administrator authentication.",
     site: "https://github.com/spragul/guvi-hackathon2-frontend",
@@ -51,12 +51,23 @@ const projects = [
     live: "https://nimble-babka-3e85ad.netlify.app",
     livename: "Live",
   },
-
   {
     id: 4,
+    image: task,
+    title: "Task Management",
+    description:
+      "Users can create tasks and input details such as the start date, end date, and task description. Based on the task's end date, the app will automatically send email reminders one day prior and one hour before the deadline. If the task is completed before the end date, no emails will be sent.",
+    site: "https://github.com/spragul/taskfrontend",
+    source: "Frontend Code",
+    backsite: "https://github.com/spragul/taskManagement-backend",
+    backsource: "Backend Code",
+    live: "https://taskmanagement-123.netlify.app",
+    livename: "Live",
+  },
+  {
+    id: 5,
     image: tournament,
     title: "Tournament app",
-
     description:
       "The tournament app can be used to create a tournament and add participants to it. Once the participants have been added, you can select a winner based on the rules of the tournament.",
     site: "https://github.com/spragul/tournament-frontend",
@@ -67,11 +78,11 @@ const projects = [
     livename: "Live",
   },
   {
-    id: 5,
+    id: 6,
     image: mobileapp,
     title: "Mobile shop",
-
-    description:"In this app, we need to implement authentication and perform CRUD operations",
+    description:
+      "In this app, we need to implement authentication and perform CRUD operations",
     site: "https://github.com/spragul/mobile-front",
     source: "Frontend Code",
     backsite: "https://github.com/spragul/mobile-back",
@@ -86,8 +97,12 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>projects</h2>
       <h3>Common Credentials</h3>
-      <p className="common_credentials">User :- user123@gmail.com || password: user1234</p>
-      <p className="common_credentials">Admin :- admin123@gmail.com || password: admin123</p>
+      <p className="common_credentials">
+        User :- user123@gmail.com || password: user1234
+      </p>
+      <p className="common_credentials">
+        Admin :- admin123@gmail.com || password: admin123
+      </p>
 
       <div className="container portfolio__container">
         {projects.map((project) => {
@@ -107,7 +122,10 @@ const Portfolio = () => {
 
               <small className="portfolio__desc">{project.description}</small>
 
-              <div className="portfolio_a" style={{ display: "flex", justifyContent: "space-between" }}>
+              <div
+                className="portfolio_a"
+                style={{ display: "flex", justifyContent: "space-between" }}
+              >
                 <a
                   href={project.site}
                   target="_blank"
